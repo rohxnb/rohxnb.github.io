@@ -1,0 +1,81 @@
+html{
+    font-family: 'poppins';
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100vh; 
+    background-image: url(Images/b16d909fa4fbf4f57c549e8a956ae81c.jpg);
+}
+.top-left a{
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    text-decoration:none ;
+    font-size: 33px;
+    padding-left: 20px;
+    background-color: #000000;
+    padding-right: 20px;
+    border-style: hidden;
+    border-radius: 7px;
+    color: white;
+    opacity: 0.65;
+    text-shadow: 2px 3px 4px blue;
+}
+.middlestuff{
+    display: flex;
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 25px;
+    flex-direction: column;
+}
+.middlestuff h1{
+    text-shadow: 2px 3px 4px black;
+}
+.middlestuff a{
+    font-style: italic;
+    text-shadow: 2px 3px 4px black;
+    text-decoration: none;
+    color: white;
+}
+.answers{
+    margin-top: 250px;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+.answers h2{
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.answers h1{
+    text-shadow: 2px 2px 4px black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.answers h2:hover{
+    scale: 1.02;
+}
+.answers h1:hover{
+    scale: 1.02;
+}
+.middlestuff video{
+    margin: 20%;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 4px black;
+    
+    
+}
+.middlestuff video:hover{
+    scale: 1.03;
+    box-shadow: 2px 3px 4px red;
+}
+.top-left a:hover{
+    scale: 1.03;
+    box-shadow: 2px 3px 4px red;
+}

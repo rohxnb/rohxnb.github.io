@@ -1,0 +1,49 @@
+html{
+    font-family: 'poppins';
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+    background-image: url(Images/b16d909fa4fbf4f57c549e8a956ae81c.jpg);
+}
+th {
+    font-size: 13px;
+    border-style: ridge;
+    border-color: black;
+    text-shadow: 2px 3px 4px rgb(0, 0, 0);
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+}
+table {
+    color: white;
+}
+td{
+    font-weight: 600;
+    border-style: ridge;
+    text-align: center;
+    font-size: 13px;
+    border-color: black;
+    backdrop-filter: blur(3px);
+    text-shadow: 2px 3px 4px black;
+    border-radius: 10px;
+}
+.answers h1{
+    
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 4px black;
+    border-style: ridge;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: black;
+}
+.answers a{
+    text-decoration: none;
+    color: white;
+}
+td:hover{
+    scale: 1.01;
+}
+th:hover{
+    scale: 1.01;
+}

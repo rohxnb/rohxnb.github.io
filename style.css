@@ -40,29 +40,6 @@ html{
     text-decoration: none;
     color: white;
 }
-.answers{
-    margin-top: 250px;
-    color: white;
-    font-size: 10px;
-    padding-bottom: 20px;
-}
-.answers h2{
-    text-align: center;
-    text-shadow: 2px 2px 4px black;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.answers h1{
-    text-shadow: 2px 2px 4px black;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.answers h2:hover{
-    scale: 1.02;
-}
-.answers h1:hover{
-    scale: 1.02;
-}
 .middlestuff video{
     margin: 20%;
     margin-top: 20px;
@@ -78,4 +55,19 @@ html{
 .top-left a:hover{
     scale: 1.03;
     box-shadow: 2px 3px 4px red;
+}
+.vidsource a{
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: black;
+    padding: 15px;
+}
+.vidsource{
+    margin-bottom: 40px;
+    text-align: center;
+    transform: translateY(-340px);
 }

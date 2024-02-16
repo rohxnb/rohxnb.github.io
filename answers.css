@@ -12,7 +12,7 @@ th {
     border-color: black;
     text-shadow: 2px 3px 4px rgb(0, 0, 0);
     border-radius: 10px;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
 }
 table {
     color: white;
@@ -23,7 +23,7 @@ td{
     text-align: center;
     font-size: 13px;
     border-color: black;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
     text-shadow: 2px 3px 4px black;
     border-radius: 10px;
 }
